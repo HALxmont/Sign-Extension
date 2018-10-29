@@ -1,0 +1,2 @@
+vhdl isim_temp "M_signex.vhd"
+vhdl isim_temp "B_signex.vhd"

@@ -5,8 +5,8 @@ Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
 ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 sign_extension.ngc
 sign_extension.ngd
 
-Reading NGO file "/home/xmont/Proyectos Git/sign extension
-vhdl/Sign_extension/sign_extension.ngc" ...
+Reading NGO file "/home/xmont/Proyectos
+Git/Sign-Extension/Sign_extension_vhdl/sign_extension.ngc" ...
 Gathering constraint information from source properties...
 Done.
 

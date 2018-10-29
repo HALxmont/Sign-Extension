@@ -23,12 +23,12 @@ architecture Behavioral of sign_extension is
 begin
 
 -- In the line after of this comments (line 33) sign extension happen. 
--- when more significant bit of input "u" (bit number 16) 
--- is equal to 0  the program will assign an output a concadenation 
+-- when the most significant bit of input "u" (bit number 16) 
+-- is equal to 0  the program will assign an output concadenation 
 -- (for that we use the sign "&") between X"0000" (16 bit number in hex) and input "u". 
 -- in the other case (it's a binary number, the only other option it's zero) 
--- when more significant bit of input "u" (bit number 16) 
--- is equal to 1 the program will assign an output a concadenation 
+-- when the most significant bit of input "u" (bit number 16) 
+-- is equal to 1 the program will assign an output concadenation 
 -- (for that we use the sign "&") between X"ffff" (16 bit number in hex) and input "u". 
 	y	<=	x"0000" & u when u(15) = '0' else x"ffff" & u;	
 

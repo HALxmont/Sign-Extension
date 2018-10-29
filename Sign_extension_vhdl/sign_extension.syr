@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> 
 Reading design: sign_extension.prj
@@ -108,7 +108,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/xmont/Proyectos Git/sign extension vhdl/Sign_extension/M_signex.vhd" into library work
+Parsing VHDL file "/home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/M_signex.vhd" into library work
 Parsing entity <sign_extension>.
 Parsing architecture <Behavioral> of entity <sign_extension>.
 
@@ -123,7 +123,7 @@ Elaborating entity <sign_extension> (architecture <Behavioral>) from library <wo
 =========================================================================
 
 Synthesizing Unit <sign_extension>.
-    Related source file is "/home/xmont/Proyectos Git/sign extension vhdl/Sign_extension/M_signex.vhd".
+    Related source file is "/home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/M_signex.vhd".
     Summary:
 	no macro.
 Unit <sign_extension> synthesized.
@@ -270,13 +270,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 12.16 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 11.13 secs
  
 --> 
 
 
-Total memory usage is 504872 kilobytes
+Total memory usage is 504896 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

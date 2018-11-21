@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/sign_extension_isim_beh.exe" -prj "/home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/sign_extension_beh.prj" "work.sign_extension" 

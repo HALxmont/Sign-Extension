@@ -1,0 +1,29 @@
+Command line:
+   B_signex_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  36807
+
+Wed Nov 21 19:26:04 2018
+
+
+ Elaboration Time: 0.06 sec
+
+ Current Memory Usage: 197.046 Meg
+
+ Total Signals          : 4
+ Total Nets             : 48
+ Total Signal Drivers   : 1
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 408
+Total Line Count : 1
+
+ Total Simulation Time: 0.11 sec
+
+ Current Memory Usage: 272.548 Meg
+
+Wed Nov 21 19:26:22 2018
+

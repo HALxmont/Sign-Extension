@@ -1,10 +1,10 @@
 --------------------------------------------------------------------------------
--- Company: UBB
--- Engineer: Mauricio Montanares
+-- Company: 
+-- Engineer:
 --
--- Create Date:   22:16:27 10/28/2018
+-- Create Date:   19:23:19 11/21/2018
 -- Design Name:   
--- Module Name:   /home/xmont/Proyectos Git/sign extension vhdl/Sign_extension/B_signex.vhd
+-- Module Name:   /home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/Sign_extension_tb.vhd
 -- Project Name:  Sign_extension
 -- Target Device:  
 -- Tool versions:  
@@ -28,12 +28,14 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
  
-
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--USE ieee.numeric_std.ALL;
  
-ENTITY B_signex IS
-END B_signex;
+ENTITY Sign_extension_tb IS
+END Sign_extension_tb;
  
-ARCHITECTURE behavior OF B_signex IS 
+ARCHITECTURE behavior OF Sign_extension_tb IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
@@ -53,7 +55,7 @@ ARCHITECTURE behavior OF B_signex IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   --constant <clock>_period : time := 10 ns;
+   constant <clock>_period : time := 10 ns;
  
 BEGIN
  
@@ -64,22 +66,26 @@ BEGIN
         );
 
    -- Clock process definitions
---   <clock>_process :process
---		begin
---		<clock> <= '0';
---		wait for <clock>_period/2;
---		<clock> <= '1';
---		wait for <clock>_period/2;
---   end process;
+   <clock>_process :process
+   begin
+		<clock> <= '0';
+		wait for <clock>_period/2;
+		<clock> <= '1';
+		wait for <clock>_period/2;
+   end process;
  
---		Stimulus Process
-	
--- The code of below its here only for see something in simulation	
-		stim_proc: process
-		begin
-		
-		wait for 100 ns;
-		y <= not u;
-		end process;
+
+   -- Stimulus process
+   stim_proc: process
+   begin		
+      -- hold reset state for 100 ns.
+      wait for 100 ns;	
+
+      wait for <clock>_period*10;
+
+      -- insert stimulus here 
+
+      wait;
+   end process;
 
 END;

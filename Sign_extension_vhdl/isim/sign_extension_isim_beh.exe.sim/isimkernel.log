@@ -2,9 +2,9 @@ Command line:
    sign_extension_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  43753
+     -socket  40337
 
-Wed Nov 21 19:32:04 2018
+Thu Nov 22 12:10:32 2018
 
 
  Elaboration Time: 0.02 sec
@@ -21,9 +21,9 @@ Wed Nov 21 19:32:04 2018
  Total Scalar Nets and Variables : 408
 Total Line Count : 1
 
- Total Simulation Time: 0.05 sec
+ Total Simulation Time: 0.02 sec
 
  Current Memory Usage: 272.552 Meg
 
-Wed Nov 21 19:40:41 2018
+Thu Nov 22 12:10:49 2018
 

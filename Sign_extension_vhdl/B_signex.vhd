@@ -77,9 +77,14 @@ BEGIN
 -- The code of below its here only for see something in simulation	
 		stim_proc: process
 		begin
-		
+		 
 		wait for 100 ns;
-		y <= not u;
+		u <= x"0123";
+		wait for 100 ns;
+		u <= x"8123";
+		wait for 100 ns;
+		u <= x"F123";
+		
+		wait;
 		end process;
-
 END;

@@ -1,20 +1,22 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/sign_extension_isim_beh.exe -prj /home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/sign_extension_beh.prj work.sign_extension 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/B_signex_isim_beh.exe -prj /home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/B_signex_beh.prj work.B_signex 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
 Parsing VHDL file "/home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/M_signex.vhd" into library work
+Parsing VHDL file "/home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/B_signex.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 95872 KB
-Fuse CPU Usage: 1610 ms
+Fuse Memory Usage: 95860 KB
+Fuse CPU Usage: 1600 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity sign_extension
+Compiling architecture behavioral of entity sign_extension [sign_extension_default]
+Compiling architecture behavior of entity b_signex
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 3 VHDL Units
-Built simulation executable /home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/sign_extension_isim_beh.exe
-Fuse Memory Usage: 661580 KB
-Fuse CPU Usage: 1630 ms
-GCC CPU Usage: 240 ms
+Compiled 5 VHDL Units
+Built simulation executable /home/xmont/Proyectos Git/Sign-Extension/Sign_extension_vhdl/B_signex_isim_beh.exe
+Fuse Memory Usage: 661556 KB
+Fuse CPU Usage: 1640 ms
+GCC CPU Usage: 300 ms

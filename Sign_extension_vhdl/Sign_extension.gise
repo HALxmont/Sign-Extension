@@ -22,7 +22,9 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Sign_extension.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="B_signex_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="B_signex_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="B_signex_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="B_signex_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -53,11 +55,9 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="sign_extension.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="sign_extension.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sign_extension.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sign_extension_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="sign_extension_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="sign_extension_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sign_extension_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="sign_extension_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="sign_extension_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="sign_extension_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="sign_extension_map.ncd" xil_pn:subbranch="Map"/>
@@ -83,17 +83,17 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1542839923" xil_pn:in_ck="-7470038346261151319" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1542839923">
+    <transform xil_pn:end_ts="1542899663" xil_pn:in_ck="-7470038346261151319" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1542899663">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="B_signex.vhd"/>
       <outfile xil_pn:name="M_signex.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1542839519" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2585907445435702842" xil_pn:start_ts="1542839519">
+    <transform xil_pn:end_ts="1542899466" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8028395864533612687" xil_pn:start_ts="1542899466">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1542839519" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3210001908085272744" xil_pn:start_ts="1542839519">
+    <transform xil_pn:end_ts="1542899466" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5242008135115706669" xil_pn:start_ts="1542899466">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -101,40 +101,32 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1542839519" xil_pn:in_ck="-7470038346261151319" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1542839519">
+    <transform xil_pn:end_ts="1542899663" xil_pn:in_ck="-7470038346261151319" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1542899663">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="B_signex.vhd"/>
       <outfile xil_pn:name="M_signex.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1542839521" xil_pn:in_ck="-7470038346261151319" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6422079057526029165" xil_pn:start_ts="1542839519">
+    <transform xil_pn:end_ts="1542899666" xil_pn:in_ck="-7470038346261151319" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2158218150920718020" xil_pn:start_ts="1542899663">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="B_signex_beh.prj"/>
+      <outfile xil_pn:name="B_signex_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="sign_extension_beh.prj"/>
-      <outfile xil_pn:name="sign_extension_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1542839521" xil_pn:in_ck="-2544805225987689254" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5088427503984526128" xil_pn:start_ts="1542839521">
+    <transform xil_pn:end_ts="1542899666" xil_pn:in_ck="-2544805225987689254" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1910869186178599" xil_pn:start_ts="1542899666">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="B_signex_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="sign_extension_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1540775550" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1540775550">
       <status xil_pn:value="SuccessfullyRun"/>
